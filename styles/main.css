@@ -7,11 +7,17 @@
   body {
     font-size: var(--small-text);
   }
+  img {
+    width: 200px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   body {
     font-size: var(--large-text);
+  }
+  img {
+    width: 450px;
   }
 }
 
